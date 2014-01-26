@@ -1,0 +1,3 @@
+shift pgup pgdown to scroll terminal text
+
+C-h in insert mode between [] or () will delete them and drop out
