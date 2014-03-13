@@ -39,6 +39,8 @@ apt-get update
 apt-get install nodejs
 npm install phantomjs -g
 
+# TODO ssh keys, config
+
 
 #################
 ###  non dev  ###
