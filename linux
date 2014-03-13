@@ -3,6 +3,7 @@
 #################
 
 apt-get update && apt-get upgrade
+apt-get dist-upgrade
 
 apt-get install build-essential
 
@@ -17,7 +18,11 @@ apt-get install postgresql libpq-dev pgadmin3 postgresql-contrib
 # postgres=# CREATE ROLE <username> SUPERUSER LOGIN
 
 # ruby / rails / rvm
-curl -sSL https://get.rvm.io | bash -s stable --rails
+curl -sSL https://get.rvm.io | bash -s stable --rails --autolibs=enable
+# # helps w/ YAML error on linux reinstall
+# apt-get install libtool
+# rvm pkg install libyaml
+# rvm reinstall X.X.X
 
 # heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
