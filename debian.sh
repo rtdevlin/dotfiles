@@ -27,9 +27,9 @@ curl -sSL https://get.rvm.io | bash -s stable --rails --autolibs=enable
 # heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
-# oh my zsh - https://github.com/robbyrussell/oh-my-zsh
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-chsh -s /bin/zsh
+# # oh my zsh - https://github.com/robbyrussell/oh-my-zsh
+# curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+# chsh -s /bin/zsh
 
 # node / npm /phantomjs
 apt-get update
