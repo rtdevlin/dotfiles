@@ -2,14 +2,14 @@
 ###    dev    ###
 #################
 
+apt-get install zsh vim git
+
 apt-get update && apt-get upgrade
 apt-get dist-upgrade
 
 apt-get install build-essential
 
-apt-get install vim zsh git lynx
-
-apt-get install curl sqlite3 libsqlite3-dev nodejs g++ libpq-dev libxslt1-dev libyaml-dev tree
+apt-get install curl sqlite3 libsqlite3-dev nodejs g++ libpq-dev libxslt1-dev libyaml-dev tree lynx
 
 # postgres
 apt-get install postgresql libpq-dev pgadmin3 postgresql-contrib
