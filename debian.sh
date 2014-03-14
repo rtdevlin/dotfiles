@@ -9,7 +9,7 @@ apt-get dist-upgrade
 
 apt-get install build-essential
 
-apt-get install curl sqlite3 libsqlite3-dev libpq-dev libxslt1-dev libyaml-dev tree lynx
+apt-get install curl sqlite3 libsqlite3-dev libpq-dev redis-server libxslt1-dev libyaml-dev tree lynx
 
 # postgres
 apt-get install postgresql libpq-dev pgadmin3 postgresql-contrib
