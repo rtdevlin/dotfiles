@@ -46,11 +46,12 @@ npm install phantomjs -g
 ###  non dev  ###
 #################
 
-# apt-get install chromium-browser
+curl https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb>~/Downloads/
+dpkg -i ~/Downloads/chrome-amd64.deb
+rm ~/Downloads/chrome-amd64.deb
+
 # apt-get install mplayer ffmpeg winff libavcodec-extra-52 ffmpeg gjiten
 # apt-get install gparted unetbootin powertop skype
 # apt-get install ttf-takao ttf-unfonts-core
 # # fix x220 sound
 # apt-get install libasound2-plugins:i386
-
-# REBOOT!
