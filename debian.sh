@@ -50,6 +50,8 @@ npm install phantomjs -g
 
 # TODO ssh keys, config
 
+# terminal font Ubuntu Mono 24 #FF6100
+
 
 #################
 ###  non dev  ###
