@@ -63,6 +63,9 @@ rm ~/Downloads/chrome-amd64.deb
 
 # apt-get install mplayer ffmpeg winff libavcodec-extra-52 gjiten
 # apt-get install gparted unetbootin powertop skype
+
 # apt-get install ttf-takao ttf-unfonts-core
+# JP IME - http://www.localizingjapan.com/blog/2013/12/04/japanese-input-on-linux-mint-16-petra-cinnamon/
+
 # # fix x220 sound
 # apt-get install libasound2-plugins:i386
