@@ -39,6 +39,15 @@ apt-get update
 apt-get install nodejs
 npm install phantomjs -g
 
+# erlang / elixir
+# https://www.erlang-solutions.com/downloads/download-erlang-otp
+# dpkg -i erlang.deb
+#
+# git clone https://github.com/elixir-lang/elixir.git
+# cd elixir
+# make clean test && make && make install
+
+
 # TODO ssh keys, config
 
 
