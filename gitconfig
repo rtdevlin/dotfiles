@@ -1,3 +1,7 @@
 [user]
 	name = Brad Chase
 	email = brad@webappfromscratch.com
+[push]
+	default = simple
+[core]
+	editor = vim

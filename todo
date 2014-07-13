@@ -2,3 +2,10 @@
 .gitconfig
 jmplayer
 oh-my-zsh config
+
+.zshrc
+
+vim bundle
+oh-my-zsh theme
+
+npm config

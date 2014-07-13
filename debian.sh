@@ -11,6 +11,9 @@ apt-get install build-essential
 
 apt-get install curl sqlite3 libsqlite3-dev libpq-dev redis-server libxslt1-dev libyaml-dev tree lynx
 
+# apt-get install libmagickwand-dev
+
+
 # postgres
 apt-get install postgresql libpq-dev pgadmin3 postgresql-contrib
 # # postgres rails config
@@ -57,14 +60,11 @@ npm install phantomjs -g
 ###  non dev  ###
 #################
 
-curl https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb>~/Downloads/
-dpkg -i ~/Downloads/chrome-amd64.deb
-rm ~/Downloads/chrome-amd64.deb
+curl https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb> chrome.deb
+dpkg -i chrome.deb
+rm chrome.deb
 
-# apt-get install mplayer ffmpeg winff libavcodec-extra-52 gjiten
-# apt-get install gparted unetbootin powertop skype
-
-# apt-get install ttf-takao ttf-unfonts-core
+# apt-get install mplayer ffmpeg winff libavcodec-extra-53 gjiten eog gparted unetbootin powertop skype ttf-takao ttf-unfonts-core
 # JP IME - http://www.localizingjapan.com/blog/2013/12/04/japanese-input-on-linux-mint-16-petra-cinnamon/
 
 # # fix x220 sound

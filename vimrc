@@ -24,7 +24,9 @@ set showmode
 set wildmenu
 set wildmode=list:longest,full
 
+" set foldmethod=indent
 set foldmethod=syntax
+set foldlevelstart=20
 
 "ignore case when all lower
 set ic
