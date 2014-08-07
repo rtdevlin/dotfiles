@@ -32,6 +32,9 @@ alias mplayersub='mplayer -subcp utf8 -subfont "TakaoExGothic" -subfont-text-sca
 alias rs='rails server'
 alias rc='rails console'
 alias fs='foreman start web -p 3000'
+alias rrg='rake routes | g'
+alias rdm='rake db:migrate'
+alias rdr='rake db:rollback'
 
 alias pj='python -mjson.tool'
 
@@ -43,6 +46,7 @@ alias clip='xclip -sel clip < '
 alias mp3='~/.mp3.rb'
 alias jmplayer='~/.jmplayer.rb'
 
+alias github=hub
 alias gs='git status -s'
 alias ga='git add'
 alias gaa='git add .'
