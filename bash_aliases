@@ -68,5 +68,8 @@ alias gaa='git add .'
 alias gau='git add -u'
 alias gcm='git commit -m'
 alias gcam='git commit -am'
+alias gcma='git commit -am'
 alias c='git commit -am'
 alias gpa='git push origin --all'
+
+alias o=open
