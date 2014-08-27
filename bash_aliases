@@ -73,3 +73,5 @@ alias c='git commit -am'
 alias gpa='git push origin --all'
 
 alias o=open
+alias todo='vim ~/.todo'
+alias rscript='~/.scripts/rbscript.rb'

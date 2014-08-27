@@ -1,11 +1,35 @@
-.gitignore
-.gitconfig
-jmplayer
-oh-my-zsh config
 
-.zshrc
+  new executable ruby file
+    [ ] touch file
+    [ ] add #!
+    [ ] chmod u+x
 
-vim bundle
-oh-my-zsh theme
+  gist -o -p foo
+    # [ ] grab gist id 
+    # [ ] full path = pwd + filename
+    # [ ] get inode `File.stat('file').ino` to ~/.gists.yml w/ inode
+    # [ ] write inode to ~/.gists.yml as inode: gist_id
+    #
+    # -> gist -p foo -u deadbeef1234
+    # w/ gist -p foo
+    # inode # ? http://unix.stackexchange.com/questions/24192/portable-way-to-find-inode-number
 
-npm config
+  hub fork 
+    set upstream (https://help.github.com/articles/configuring-a-remote-for-a-fork)
+      $ git remote add upstream $ORIG_REPO
+    sync (https://help.github.com/articles/syncing-a-fork)
+      $ git fetch upstream
+      $ git checkout master
+      $ git merge upstream/master
+
+  .gitignore
+  .gitconfig
+  jmplayer
+  oh-my-zsh config
+
+  .zshrc
+
+  vim bundle
+  oh-my-zsh theme
+
+  npm config
