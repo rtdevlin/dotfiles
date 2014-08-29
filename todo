@@ -1,8 +1,12 @@
 
-  new executable ruby file
-    [ ] touch file
-    [ ] add #!
-    [ ] chmod u+x
+  
+  pr in ruby - puts and return e.g.
+    cmd = "some line"
+    puts cmd
+    cmd
+
+  alias all ~/.scripts by filename
+    e.g. $ alias rbscript=~/.scripts/rbscript.rb
 
   gist -o -p foo
     # [ ] grab gist id 
@@ -21,6 +25,11 @@
       $ git fetch upstream
       $ git checkout master
       $ git merge upstream/master
+
+  google extension
+    "what's this?" for line of code on github
+      - click the line (hash #L1337)
+      - right click, context menu option for...
 
   .gitignore
   .gitconfig

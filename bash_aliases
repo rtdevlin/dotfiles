@@ -75,3 +75,8 @@ alias gpa='git push origin --all'
 alias o=open
 alias todo='vim ~/.todo'
 alias rscript='~/.scripts/rbscript.rb'
+
+alias gist='gist --update-by-name'
+
+alias lc='wc -l'
+alias m='more'
