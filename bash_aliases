@@ -2,6 +2,7 @@ alias ll='ls -lh'
 alias lla='ls -lha'
 alias lld='ls -lh | grep "^d"'
 alias llda='ls -lha | grep "^d"'
+alias llad='ls -lha | grep "^d"'
 alias cd..='cd ..'
 alias cdd='cd ..'
 alias cddd='cd ..; cd ..'
@@ -80,3 +81,8 @@ alias gist='gist --update-by-name'
 
 alias lc='wc -l'
 alias m='more'
+
+alias sagi='sudo apt-get install'
+alias sagiy='sudo apt-get install -y'
+
+alias hist='cat ~/.zsh_history | grep'
