@@ -2,30 +2,18 @@
 ###    dev    ###
 #################
 
-apt-get install zsh vim git
+apt-get install -y vim git zsh build-essential curl libcurl4-gnutls-dev libyaml-dev sqlite3 libsqlite3-dev libpq-dev redis-server libxslt1-dev tree lynx libmagickwand-dev postgresql libpq-dev pgadmin3 postgresql-contrib
 
-apt-get update && apt-get upgrade
-apt-get dist-upgrade
-
-apt-get install build-essential
-
-apt-get install curl sqlite3 libsqlite3-dev libpq-dev redis-server libxslt1-dev libyaml-dev tree lynx
-
-# apt-get install libmagickwand-dev
-
-
-# postgres
-apt-get install postgresql libpq-dev pgadmin3 postgresql-contrib
 # # postgres rails config
 # sudo -u postgres psql
 # postgres=# CREATE ROLE <username> SUPERUSER LOGIN
 
-# ruby / rails / rvm
-curl -sSL https://get.rvm.io | bash -s stable --rails --autolibs=enable
-# # helps w/ YAML error on linux reinstall
-# apt-get install libtool
-# rvm pkg install libyaml
-# rvm reinstall X.X.X
+# # ruby / rails / rvm
+# curl -sSL https://get.rvm.io | bash -s stable --rails --autolibs=enable
+# # # helps w/ YAML error on linux reinstall
+# # apt-get install libtool
+# # rvm pkg install libyaml
+# # rvm reinstall X.X.X
 
 # heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
@@ -39,7 +27,7 @@ apt-get update
 apt-get install -y python-software-properties python g++ make
 add-apt-repository ppa:chris-lea/node.js
 apt-get update
-apt-get install nodejs
+apt-get install -y nodejs
 npm install phantomjs -g
 
 # erlang / elixir
@@ -60,12 +48,31 @@ npm install phantomjs -g
 ###  non dev  ###
 #################
 
-curl https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb> chrome.deb
-dpkg -i chrome.deb
-rm chrome.deb
+# curl https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > chrome.deb
+# dpkg -i chrome.deb
+# rm chrome.deb
 
-# apt-get install mplayer ffmpeg winff libavcodec-extra-53 gjiten eog gparted unetbootin powertop skype ttf-takao ttf-unfonts-core
+# apt-get install -y mplayer winff libav-tools gjiten eog gparted unetbootin powertop skype 
+#
+# ttf-takao ttf-unfonts-core
+# # libavcodec-extra-53 ffmpeg
+
+
 # JP IME - http://www.localizingjapan.com/blog/2013/12/04/japanese-input-on-linux-mint-16-petra-cinnamon/
+
+# t440s
+#   keyboard shortcuts
+#     A-1 xfce4-terminal
+#     A-2 launcher
+#     Insert shutter -f -e -o %Y-%m-%d-%T-%RR.png
+#
+#   prtsc to context btn
+#     .xmodmap
+#
+#   touchpad
 
 # # fix x220 sound
 # apt-get install libasound2-plugins:i386
+
+apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y
+
