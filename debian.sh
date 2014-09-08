@@ -39,7 +39,6 @@ npm install phantomjs -g
 # make clean test && make && make install
 
 
-# TODO ssh keys, config
 
 # terminal font Ubuntu Mono 24 #FF6100
 
@@ -52,7 +51,7 @@ npm install phantomjs -g
 # dpkg -i chrome.deb
 # rm chrome.deb
 
-# apt-get install -y mplayer winff libav-tools gjiten eog gparted unetbootin powertop skype 
+# apt-get install -y mplayer xclip ack-grep winff libav-tools libsox-fmt-mp3 gjiten eog gparted unetbootin powertop skype audacity
 #
 # ttf-takao ttf-unfonts-core
 # # libavcodec-extra-53 ffmpeg
