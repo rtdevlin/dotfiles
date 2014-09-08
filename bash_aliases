@@ -1,3 +1,5 @@
+alias vim="stty stop '' -ixoff ; vim" # allow C-s for save in vim
+
 alias ll='ls -lh'
 alias lla='ls -lha'
 alias lld='ls -lh | grep "^d"'
@@ -23,6 +25,8 @@ alias g='grep'
 alias gi='grep -i'
 alias gr='grep -R'
 alias gv='grep -v'
+alias gvi='grep -vi'
+alias giv='grep -vi'
 alias gri='grep -Ri'
 alias wcl='wc -l'
 alias v='vim'
@@ -72,6 +76,7 @@ alias gcam='git commit -am'
 alias gcma='git commit -am'
 alias c='git commit -am'
 alias gpa='git push origin --all'
+alias gll='git log --oneline --decorate --graph'
 
 alias o=open
 alias todo='vim ~/.todo'
@@ -86,3 +91,7 @@ alias sagi='sudo apt-get install'
 alias sagiy='sudo apt-get install -y'
 
 alias hist='cat ~/.zsh_history | grep'
+
+alias ack=ack-grep
+
+alias deb='vim ~/.dotfiles/debian.sh'
