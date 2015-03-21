@@ -77,9 +77,18 @@ au BufRead,BufNewFile *.hamlc set ft=haml
 "thor syntax highlighting
 au BufRead,BufNewFile *.thor set ft=ruby
 
+"thor syntax highlighting
+au BufRead,BufNewFile *.md set ft=
+au BufRead,BufNewFile *.markdown set ft=
+
+"text folding in coffeescript
+au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
+
 " c-s to save file
 nnoremap <C-S> :w<CR>
 "" nnoremap <C-s> :w<CR>
 "" nmap <C-s> :w<CR>
 "" imap <C-s> <Esc>:w<CR>a
 "" imap <C-s> <Esc><c-s>
+
+command Prylast read ! tail -1 ~/.pry_history

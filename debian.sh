@@ -15,6 +15,8 @@ apt-get install -y vim git zsh build-essential curl libcurl4-gnutls-dev libyaml-
 # # rvm pkg install libyaml
 # # rvm reinstall X.X.X
 
+# gem install html2haml
+
 # heroku toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 

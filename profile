@@ -22,3 +22,13 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# http://stackoverflow.com/questions/6475524/making-sure-commands-dont-show-up-in-bash-history
+# export HISTIGNORE="git reset*"
+HISTFILE=~/.zsh_history
+temp_histfile=~/.temp_histfile
+touch $temp_histfile
+grep -v -P ';rm ' $HISTFILE |
+grep -v -P ';git rm ' | 
+grep -v -P ';git reset ' > $temp_histfile
+cp $temp_histfile $HISTFILE

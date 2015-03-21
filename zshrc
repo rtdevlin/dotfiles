@@ -56,6 +56,4 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-export HISTIGNORE="git reset*"
-
 HIST_IGNORE_SPACE=true
