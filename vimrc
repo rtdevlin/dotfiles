@@ -3,6 +3,8 @@ set nocompatible
 call pathogen#infect()
 
 syntax on
+" set t_Co=256
+" color dracula
 filetype plugin indent on
 
 set tabstop=2
@@ -91,4 +93,8 @@ nnoremap <C-S> :w<CR>
 "" imap <C-s> <Esc>:w<CR>a
 "" imap <C-s> <Esc><c-s>
 
+"indent (foldable) block
+nnoremap <C-=> za==zR
+
 command Prylast read ! tail -1 ~/.pry_history
+command Prylastfive read ! tail -5 ~/.pry_history
