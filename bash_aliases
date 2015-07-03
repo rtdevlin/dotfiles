@@ -42,6 +42,7 @@ alias cpr='cp -r'
 alias cpn='cp -n'
 alias cprn='cp -rn'
 alias mvn='mv -n'
+alias mvi='mv -i'
 alias rtks='cat /home/bosco/rtk/rtk.xml | grep '
 alias r='rails'
 alias rjs='cd app/assets/javascripts'
@@ -102,6 +103,7 @@ alias o=open
 alias todo='vim ~/.todo'
 alias rscript='~/.scripts/rbscript.rb'
 alias json='~/.scripts/json.rb'
+alias 2mp3='~/.scripts/2mp3.rb'
 
 alias gist='gist --update-by-name'
 

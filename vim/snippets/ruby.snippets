@@ -170,6 +170,11 @@ snippet defs
 	def self.${1:class_method_name}
 		${2}
 	end
+# def self
+snippet defi
+	def initialize(${1:*args})
+		${2}
+	end
 # def method_missing
 snippet defmm
 	def method_missing(meth, *args, &blk)
