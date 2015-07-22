@@ -55,7 +55,7 @@ inoremap ;; <ESC>la
 
 "switch ; and : mappings
 nnoremap ; :
-nnoremap : ; 
+nnoremap : ;
 
 autocmd FileType css setlocal foldmethod=indent shiftwidth=2 tabstop=2
 
@@ -64,8 +64,8 @@ au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 
 
 "todo ruby into string #{}
-"todo comment current line and copy below 
-"todo switch assignment around = 
+"todo comment current line and copy below
+"todo switch assignment around =
 
 
 "testing this one out
@@ -98,3 +98,11 @@ nnoremap <C-=> za==zR
 
 command Prylast read ! tail -1 ~/.pry_history
 command Prylastfive read ! tail -5 ~/.pry_history
+
+" delete trailing \s on :w
+autocmd BufWritePre * :%s/\s\+$//e
+" autocmd Filetype ruby match Error /\s\+$/
+" " all files:
+" " match Error /\s\+$/
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim

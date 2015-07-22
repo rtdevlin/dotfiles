@@ -12,6 +12,8 @@ alias cdddd='cd ..; cd ..; cd ..'
 alias cddddd='cd ..; cd ..; cd ..; cd ..'
 alias more='less'
 alias f='fg'
+alias ff='fg'
+alias fgf='fg'
 alias f1='fg %1'
 alias fg1='fg %1'
 alias f2='fg %2'
@@ -43,7 +45,9 @@ alias cpn='cp -n'
 alias cprn='cp -rn'
 alias mvn='mv -n'
 alias mvi='mv -i'
+
 alias rtks='cat /home/bosco/rtk/rtk.xml | grep '
+
 alias r='rails'
 alias rjs='cd app/assets/javascripts'
 alias rbb='pushd app/assets/javascripts/backbone'
@@ -52,8 +56,11 @@ alias b='bundle'
 alias be='bundle exec'
 alias bu='bundle update'
 alias bs='bundle show'
+alias gf='vim Gemfile'
+
 alias gsm='gnome-system-monitor'
 alias msm='mate-system-monitor'
+
 alias mplayersub='mplayer -subcp utf8 -subfont "TakaoExGothic" -subfont-text-scale 3 -subfont-outline 1'
 
 alias rs='rails server'
@@ -93,6 +100,7 @@ alias agcm='git commit --amend -m'
 alias agcam='git commit --amend -am'
 alias gpa='git push origin --all'
 alias gll='git log --oneline --decorate --graph'
+alias gld='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
 alias gdl='git diff "HEAD^"'
 alias c='git commit -am'
 alias s='git status -s'
@@ -105,7 +113,7 @@ alias rscript='~/.scripts/rbscript.rb'
 alias json='~/.scripts/json.rb'
 alias 2mp3='~/.scripts/2mp3.rb'
 
-alias gist='gist --update-by-name'
+alias ugist='gist --update-by-name'
 
 alias lc='wc -l'
 alias m='more'
@@ -122,3 +130,7 @@ alias deb='vim ~/.dotfiles/debian.sh'
 # gsub() { grep -rl "$1" . | xargs sed -i "s/$1/$2/g" }
 
 alias wh='which'
+
+alias bits='vim ~/.bits'
+
+tm() { tree "$1" | m }
