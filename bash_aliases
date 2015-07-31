@@ -56,6 +56,7 @@ alias b='bundle'
 alias be='bundle exec'
 alias bu='bundle update'
 alias bs='bundle show'
+alias bc='bundle console'
 alias gf='vim Gemfile'
 
 alias gsm='gnome-system-monitor'

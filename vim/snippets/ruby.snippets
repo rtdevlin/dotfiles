@@ -1,6 +1,6 @@
 # #!/usr/bin/ruby
 snippet #!
-	#!/usr/bin/ruby 
+	#!/usr/bin/ruby
 
 snippet kv
 	${1} => ${2}
@@ -14,7 +14,7 @@ snippet y
 	:yields: ${1:arguments}
 snippet rb
 	#!/usr/bin/env ruby -wKU
-	
+
 snippet req
 	require "${1}"${2}
 snippet #
@@ -66,24 +66,24 @@ snippet cla class .. initialize .. end
 		def initialize(${2:args})
 			${3}
 		end
-	
-	
+
+
 	end
 snippet cla class .. < ParentClass .. initialize .. end
 	class ${1:`substitute(Filename(), '^.', '\u&', '')`} < ${2:ParentClass}
 		def initialize(${3:args})
 			${4}
 		end
-	
-	
+
+
 	end
 snippet cla ClassName = Struct .. do .. end
 	${1:`substitute(Filename(), '^.', '\u&', '')`} = Struct.new(:${2:attr_names}) do
 		def ${3:method_name}
 			${4}
 		end
-	
-	
+
+
 	end
 snippet cla class BlankSlate .. initialize .. end
 	class ${1:BlankSlate}
@@ -97,11 +97,11 @@ snippet cla-
 	class ${1:`substitute(Filename(), '^.', '\u&', '')`} < DelegateClass(${2:ParentClass})
 		def initialize(${3:args})
 			super(${4:del_obj})
-	
+
 			${5}
 		end
-	
-	
+
+
 	end
 snippet mod module .. end
 	module ${1:`substitute(Filename(), '^.', '\u&', '')`}
@@ -110,7 +110,7 @@ snippet mod module .. end
 snippet mod module .. module_function .. end
 	module ${1:`substitute(Filename(), '^.', '\u&', '')`}
 		module_function
-	
+
 		${2}
 	end
 snippet mod module .. ClassMethods .. end
@@ -128,7 +128,7 @@ snippet mod module .. ClassMethods .. end
 		 	receiver.send :include, InstanceMethods
 		end
 	end
-		
+
 # attr_reader
 snippet r
 	attr_reader :${1:attr_names}
@@ -142,14 +142,14 @@ snippet rw
 # include Enumerable
 snippet Enum
 	include Enumerable
-	
+
 	def each(&block)
 		${1}
 	end
 # include Comparable
 snippet Comp
 	include Comparable
-	
+
 	def <=>(other)
 		${1}
 	end
@@ -329,9 +329,9 @@ snippet unif
 # option_parse {}
 snippet optp
 	require "optparse"
-	
+
 	options = {${1:default => "args"}}
-	
+
 	ARGV.options do |opts|
 		opts.banner = \"Usage: #{File.basename($PROGRAM_NAME)}
 snippet opt
@@ -399,3 +399,12 @@ snippet rpr
 	require 'pry'
 	binding.pry
 	raise
+
+snippet rrr
+	require 'pathname'
+	require 'virtus'
+	require 'uri'
+	require 'net/http'
+	require 'json'
+	# require 'active_support/core_ext/klass'
+	require 'pry'

@@ -106,3 +106,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 " " match Error /\s\+$/
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" hi Search cterm=NONE ctermfg=grey ctermbg=DarkCyan
+" set hlsearch
