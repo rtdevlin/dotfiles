@@ -1,6 +1,7 @@
 alias vim="stty stop '' -ixoff ; vim" # allow C-s for save in vim
 
 alias x='xmodmap ~/.xmodmap'
+alias md='mkdir -p'
 
 alias wh='which'
 
@@ -41,6 +42,7 @@ alias lla='ls -lha'
 alias lld='ls -lh | grep "^d"'
 alias llda='ls -lha | grep "^d"'
 alias llad='ls -lha | grep "^d"'
+alias list='ls -ltr'
 
 alias f='fg'
 alias ff='fg'
@@ -135,3 +137,4 @@ tm() { tree "$1" | m }
 alias mplayersub='mplayer -subcp utf8 -subfont "TakaoExGothic" -subfont-text-scale 3 -subfont-outline 1'
 
 alias rtks='cat /home/bosco/rtk/rtk.xml | grep '
+alias magic='cd;java -jar XMageLauncher-0.3.4.jar'

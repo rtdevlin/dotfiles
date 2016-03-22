@@ -7,6 +7,8 @@ syntax on
 " color dracula
 filetype plugin indent on
 
+let g:html_indent_inctags= "html,body,head,tbody"
+
 set tabstop=2
 set shiftwidth=2
 
@@ -35,8 +37,10 @@ set ic
 set scs
 
 "move to front/end of line
-nnoremap <C-h> ^
-nnoremap <C-l> $
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+nnoremap <C-k> <C-w>k
+nnoremap <C-j> <C-w>j
 vnoremap <C-h> ^
 vnoremap <C-l> $
 
