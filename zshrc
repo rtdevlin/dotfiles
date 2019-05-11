@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="bchase"
+ZSH_THEME="saigon"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -45,7 +45,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/heroku/bin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/home/bosco/.elixir/bin:/home/bosco/.rvm/gems/ruby-1.9.3-p392/bin:/home/bosco/.rvm/gems/ruby-1.9.3-p392@global/bin:/home/bosco/.rvm/rubies/ruby-1.9.3-p392/bin:/home/bosco/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export PATH=$PATH:/usr/local/heroku/bin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/home/saigon/.elixir/bin:/home/saigon/.rvm/gems/ruby-1.9.3-p392/bin:/home/saigon/.rvm/gems/ruby-1.9.3-p392@global/bin:/home/saigon/.rvm/rubies/ruby-1.9.3-p392/bin:/home/saigon/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
 
 # RVM

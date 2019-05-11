@@ -1,8 +1,8 @@
 [user]
-	name = Brad Chase
-	email = brad@webappfromscratch.com
+	name = Ryan Devlin
+	email = ryandevlin86@gmail.com
 [push]
 	default = simple
 [core]
 	editor = vim
-	excludesfile = /home/bosco/.gitignore
+	excludesfile = /home/saigon/.gitignore

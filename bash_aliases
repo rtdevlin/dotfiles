@@ -136,5 +136,5 @@ tm() { tree "$1" | m }
 
 alias mplayersub='mplayer -subcp utf8 -subfont "TakaoExGothic" -subfont-text-scale 3 -subfont-outline 1'
 
-alias rtks='cat /home/bosco/rtk/rtk.xml | grep '
+alias rtks='cat /home/saigon/rtk/rtk.xml | grep '
 alias magic='cd;java -jar XMageLauncher-0.3.4.jar'
