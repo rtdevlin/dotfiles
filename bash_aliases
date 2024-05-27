@@ -77,6 +77,7 @@ alias mvn='mv -n'
 alias mvi='mv -i'
 
 alias ba='vim ~/.bash_aliases && source ~/.bash_aliases'
+alias na='vim ~/.bash_aliases && source ~/.bash_aliases'
 alias zh='vim ~/.zsh_history'
 alias ph='vim ~/.pry_history'
 alias deb='vim ~/.dotfiles/debian.sh'
@@ -138,3 +139,4 @@ alias mplayersub='mplayer -subcp utf8 -subfont "TakaoExGothic" -subfont-text-sca
 
 alias rtks='cat /home/saigon/rtk/rtk.xml | grep '
 alias magic='cd;java -jar XMageLauncher-0.3.4.jar'
+alias k='kubectl'
