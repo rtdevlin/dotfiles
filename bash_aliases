@@ -73,7 +73,6 @@ alias psg='ps -e | grep'
 alias cpr='cp -r'
 alias cpn='cp -n'
 alias cprn='cp -rn'
-alias mvn='mv -n'
 alias mvi='mv -i'
 
 alias ba='vim ~/.bash_aliases && source ~/.bash_aliases'
